@@ -1,9 +1,11 @@
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <Header />
       <p className="p-10">
         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus
         ex sapien vitae pellentesque sem placerat. In id cursus mi pretium
