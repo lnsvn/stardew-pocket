@@ -1,11 +1,13 @@
 function Header() {
   return (
-    <div className="p-15 bg-violet-300 justify-around">
+    <div className="flex items-center p-15 bg-violet-300 justify-between">
       <h3>SVPC</h3>
       <h1>Stardew Valley Pocket Companion</h1>
-      <h6>
-        <a>Login</a>or<a>Sign Up</a>
-      </h6>
+      <div>
+        <a>Login</a>
+        <p>or</p>
+        <a>Sign Up</a>
+      </div>
     </div>
   );
 }
