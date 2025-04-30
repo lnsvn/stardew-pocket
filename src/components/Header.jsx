@@ -1,12 +1,21 @@
+import DropdownMenu from "./Menu-Header";
+
 function Header() {
   return (
-    <div className="flex items-center p-15 bg-violet-300 justify-between">
-      <h3>SVPC</h3>
-      <h1>Stardew Valley Pocket Companion</h1>
+    <div className="px-15 pt-10 pb-5 bg-violet-300">
+      <div className="flex items-center justify-between mb-5">
+        <h3>SVPC</h3>
+        <h1>Stardew Valley Pocket Companion</h1>
+        <div>
+          <DropdownMenu/>
+        </div>
+      </div>
       <div>
-        <a>Login</a>
-        <p>or</p>
-        <a>Sign Up</a>
+        <ul className="flex justify-around">
+          <li><a>Home</a></li>
+          <li><a>Progress Tracker</a></li>
+          <li><a>Help/Info</a></li>
+        </ul>
       </div>
     </div>
   );

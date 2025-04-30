@@ -1,10 +1,10 @@
-import Header from "../components/Header";
+import HeaderLP from "../components/LP-Header";
 import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
     <div>
-      <Header />
+      {/* <HeaderLP /> */}
       <div className="bg-orange-100">
         <h1 className="p-20">Images</h1>
         <p className="px-10 pb-10 font-bold">
