@@ -12,9 +12,9 @@ function Header() {
       </div>
       <div>
         <ul className="flex justify-around">
-          <li><a>Home</a></li>
-          <li><a>Progress Tracker</a></li>
-          <li><a>Help/Info</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tracker">Progress Tracker</a></li>
+          <li><a href="/help">Help/Info</a></li>
         </ul>
       </div>
     </div>
