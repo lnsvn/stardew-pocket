@@ -1,6 +1,8 @@
 // import modules
 const express = require("express");
 const path = require("path");
+// import connectDB function
+const connectDB = require("./config/connection")
 
 const PORT = 8080;
 // create express instance
@@ -20,6 +22,8 @@ app.get("/", (req, res) => {
 // --start server function--
 const startServer = async () => {
   try {
+
+    await connectDB();
 
     // if in production mode...
     if (process.env.NODE_ENV === "production") {
